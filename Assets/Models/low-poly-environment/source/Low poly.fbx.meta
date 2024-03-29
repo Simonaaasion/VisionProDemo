@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 0ef404f8ae9f97f4bb4df4bbfb642c3d
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_House_4_texture
+    second: {fileID: 2100000, guid: c68ddfe2e38402c459aeffe3d141af19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_House_5_texture
+    second: {fileID: 2100000, guid: dd31559c5d6b7524681c524261e29943, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_house_1_texture
+    second: {fileID: 2100000, guid: 47108b7efef78034c856e0313b722248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_house_2_texture
+    second: {fileID: 2100000, guid: 1b23c1db12acb754b9ff25a43a427b83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_house_3_texture
+    second: {fileID: 2100000, guid: 093b1fe61fb6f544096710a43818b70c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boat_texture
+    second: {fileID: 2100000, guid: 54ebfaffb685aa343809142d8dab485f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box_texture
+    second: {fileID: 2100000, guid: 4a5dbb1a69149d044b75e7ad362ab02e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coppice_texture
+    second: {fileID: 2100000, guid: fa6925c5dfa5037458a2dbc4f3112b5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass_texture
+    second: {fileID: 2100000, guid: d2243ffb7a5b4b74bbd1f44066297508, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kerbstone_texture
+    second: {fileID: 2100000, guid: a852eb2703eb49e45ab1c741dc6724c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lantern_pole_texture
+    second: {fileID: 2100000, guid: 21922b56d68e58d4189664924708579d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lotus_leaf_texture
+    second: {fileID: 2100000, guid: 5c025184839a1804395dab7fa65cb11e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Other_3_texture
+    second: {fileID: 2100000, guid: 6a380f4010a422e4e92c31151e67e9aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Other_4_texture
+    second: {fileID: 2100000, guid: 4e8473a6ba5c59d4c92b0584f37eee2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Other_5_texture
+    second: {fileID: 2100000, guid: f42970f7b9d76514397e875a0f6c32a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Other_texture
+    second: {fileID: 2100000, guid: df47369a2e044a440acc68669ff5b54c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rickshaw_texture
+    second: {fileID: 2100000, guid: cf5c01fc3063bec48867f72b49a7cf9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock_texture
+    second: {fileID: 2100000, guid: 52451b5c3a8cbdb4b943042d103f46dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_texture
+    second: {fileID: 2100000, guid: de5f75e0d3848cf478728087ced14d0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rotating_bowl_texture
+    second: {fileID: 2100000, guid: 0d436ebc440b84b40b72b89dce5ca9ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soil_texture
+    second: {fileID: 2100000, guid: 3791fe12b81b65b48ab04c5b744c133e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_1_texture
+    second: {fileID: 2100000, guid: 906905444e67d1249a589476de0f5f18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_2_texture
+    second: {fileID: 2100000, guid: b76762006484901469dbc24263ee81bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Water_texture
+    second: {fileID: 2100000, guid: 6eac961059faf6341b9b36046e31144b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_1_texture
+    second: {fileID: 2100000, guid: da8748bb451634348b021e4b0f8dd80d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_2_texture
+    second: {fileID: 2100000, guid: 889cdd8cedc861a47bf558a7e0b960ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_3_texture
+    second: {fileID: 2100000, guid: 55022de3d880c2f42a9914bf193e21ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_4_texture
+    second: {fileID: 2100000, guid: 7bcc08213067053479c5bfc5f11776e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_5_texture
+    second: {fileID: 2100000, guid: 95a51d44548d7224b97c5982e7ea43b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_floor_1_texture
+    second: {fileID: 2100000, guid: 556e6e2fbacb0bb4aa691fa7d08b9232, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_floor_2_texture
+    second: {fileID: 2100000, guid: 07b8c7550cdda6a488e23377402fff4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_floor_3_texture
+    second: {fileID: 2100000, guid: 669e718ef9ba80740aa9c7a0744d89ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_floor_4_texture
+    second: {fileID: 2100000, guid: ef2456a94c2c5cd499edf28c4f9fa215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_texture
+    second: {fileID: 2100000, guid: a1b2fddb0c381ef4497231f4d68de6ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wooden_pole_texture
+    second: {fileID: 2100000, guid: 92b3856f4923f8546972da18bc34c5e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wooden_railings_1_texture
+    second: {fileID: 2100000, guid: c6050287d3d48ba4c88104166558e21d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wooden_railings_3_texture
+    second: {fileID: 2100000, guid: 30694a352c3fe5044a8c90c9ba03be4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wooden_railings_4_texture
+    second: {fileID: 2100000, guid: d81880b90208238409fe6b5ec1b2b4e5, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
