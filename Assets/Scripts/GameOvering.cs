@@ -21,6 +21,7 @@ public class GameOvering : MonoBehaviour
         // 关闭按钮 关闭云彩碰撞器
         GameOverBtn.SetActive(false);
         RestartBtn.SetActive(true);
+        
         if (PinkCloud.TryGetComponent(out MeshCollider meshCollider))
         {
             meshCollider.enabled = false;

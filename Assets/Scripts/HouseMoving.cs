@@ -25,7 +25,7 @@ public class HouseMoving : MonoBehaviour
                 {
                     float step = 10f * Time.deltaTime; // 控制移动速度，可根据需要调整
                     // 限制移动范围
-                    float newX = Mathf.Clamp(primaryTouchData.interactionPosition.x, -1.138f, -0.662f);
+                    float newX = Mathf.Clamp(primaryTouchData.interactionPosition.x, -1.5f, -1f);
                     float newZ = Mathf.Clamp(primaryTouchData.interactionPosition.z, -0.398f, 0.662f);
                     // 设置物体的新位置
                     Vector3 targetPosition = new(newX, transform.position.y, newZ);
@@ -42,12 +42,12 @@ public class HouseMoving : MonoBehaviour
                     {
                         HouseDown.Play();
                         // 移动后松开 -0.467
-                        gameObject.transform.position = new Vector3(gameObject.transform.position.x, -0.467f, gameObject.transform.position.z);
+                        gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y , gameObject.transform.position.z);
                         // 关闭house碰撞器 云彩滑出 开启结束按钮
                         if(gameObject.TryGetComponent(out BoxCollider boxCollider))
                         {
                             boxCollider.enabled = false;
-                            StartCoroutine(MoveToTarget(new Vector3(PinkCloud.transform.position.x + 1.3f, PinkCloud.transform.position.y, PinkCloud.transform.position.z), moveSpeed));
+                            StartCoroutine(MoveToTarget(new Vector3(PinkCloud.transform.position.x + 1.5f, PinkCloud.transform.position.y, PinkCloud.transform.position.z), moveSpeed));
                             GameOverBtn.SetActive(true);
                         
                         }
