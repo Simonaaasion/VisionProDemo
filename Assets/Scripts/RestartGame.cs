@@ -2,10 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RestartGame : MonoBehaviour
-{
-    public void restartGame()
-    {
-        
-    }
+public class RestartGame:MonoBehaviour {
+
+	[ContextMenuItem("÷ÿ∆Ù","restartGame")]
+	[SerializeField] GameObject rootPrefab;
+	public void restartGame() {
+		GameObject root = null;
+		for(Transform t = transform;t!=null;t=t.parent) {
+			if(t.parent==null) root=t.gameObject;
+		}
+		Instantiate(rootPrefab,root.transform.position,root.transform.rotation);
+		Destroy(root);
+
+	}
 }
