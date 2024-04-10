@@ -11,8 +11,7 @@ public class RestartGame:MonoBehaviour {
 		for(Transform t = transform;t!=null;t=t.parent) {
 			if(t.parent==null) root=t.gameObject;
 		}
-		Instantiate(rootPrefab,root.transform.position,root.transform.rotation);
-		Destroy(root);
+		RestartHelper.restartHelper.Restart(root);
 
 	}
 }
