@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -128,51 +128,6 @@ Light:
   m_CorrespondingSourceObject: {fileID: 759478826812429794, guid: 919dc9901237d00459bea9991721fd58, type: 3}
   m_PrefabInstance: {fileID: 5118830097630324484}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1534632218
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1534632220}
-  - component: {fileID: 1534632219}
-  m_Layer: 0
-  m_Name: RestartHelper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1534632219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534632218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 758ef9315277dc143ba938d5b8f92d4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootPrefab: {fileID: 5499351218270851528, guid: 919dc9901237d00459bea9991721fd58, type: 3}
---- !u!4 &1534632220
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534632218}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6745512, y: -1.4113303, z: 4.4085426}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5118830097630324484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -181,6 +136,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2877131705224732974, guid: 919dc9901237d00459bea9991721fd58, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877131705224732974, guid: 919dc9901237d00459bea9991721fd58, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877131705224732974, guid: 919dc9901237d00459bea9991721fd58, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974757596831046538, guid: 919dc9901237d00459bea9991721fd58, type: 3}
+      propertyPath: rootPrefab
+      value: 
+      objectReference: {fileID: 5499351218270851528, guid: 919dc9901237d00459bea9991721fd58, type: 3}
     - target: {fileID: 5499351218270851528, guid: 919dc9901237d00459bea9991721fd58, type: 3}
       propertyPath: m_Name
       value: RootPrefab
@@ -235,4 +206,3 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 5118830097630324484}
-  - {fileID: 1534632220}
