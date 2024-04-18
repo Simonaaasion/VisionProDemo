@@ -253,6 +253,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 176114847893532538, guid: 919dc9901237d00459bea9991721fd58, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 176114847893532538, guid: 919dc9901237d00459bea9991721fd58, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 176114847893532538, guid: 919dc9901237d00459bea9991721fd58, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5499351218270851528, guid: 919dc9901237d00459bea9991721fd58, type: 3}
       propertyPath: m_Name
       value: RootPrefab
