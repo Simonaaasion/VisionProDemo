@@ -24,8 +24,12 @@ public class GroundUpdate:MonoBehaviour {
 	public static GroundUpdate instance;
 	public  void Enter(int maxObjects,GameObject hotBar,GameObject nextBtn) {
 		isWorking=true;
+		currentObjects=0;
 		this.maxObjects=maxObjects;
 		Scoreboard.SetActive(true);
+		if(gameObject.TryGetComponent(out MeshCollider meshCollider)){
+			meshCollider.enabled=true;
+		}
 		if(textMeshPro!=null) {
 			textMeshPro.text=$"x {maxObjects-currentObjects}"; 
 		}
