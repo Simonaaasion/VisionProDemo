@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ToggleCredit:MonoBehaviour {
 
-	[SerializeField] GameObject toToggle;
+	[SerializeField] GameObject toToggleActive;
 
 	public void Work() {
-		toToggle.SetActive(!toToggle.activeSelf);
+        toToggleActive.SetActive(!toToggleActive.activeSelf);
 	}
 
 }
