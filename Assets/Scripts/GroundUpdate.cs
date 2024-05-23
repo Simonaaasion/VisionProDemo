@@ -22,20 +22,22 @@ public class GroundUpdate:MonoBehaviour {
 	bool isWorking;
 
 	public static GroundUpdate instance;
-	public  void Enter(int maxObjects,GameObject hotBar,GameObject nextBtn) {
+	public void Enter(int maxObjects,GameObject hotBar,GameObject nextBtn) {
 		isWorking=true;
 		currentObjects=0;
 		this.maxObjects=maxObjects;
 		Scoreboard.SetActive(true);
-		if(gameObject.TryGetComponent(out MeshCollider meshCollider)){
+		if(gameObject.TryGetComponent(out MeshCollider meshCollider)) {
 			meshCollider.enabled=true;
 		}
 		if(textMeshPro!=null) {
-			textMeshPro.text=$"x {maxObjects-currentObjects}"; 
+			textMeshPro.text=$"x {maxObjects-currentObjects}";
 		}
 		this.hotBar=hotBar;
 		hotBar.SetActive(true);
 		this.nextBtn=nextBtn;
+		HotBarElement target= hotBar.GetComponentInChildren<HotBarElement>();
+		prefab=target.targetPrefab;
 	}
 
 	private void Start() {

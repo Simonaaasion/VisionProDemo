@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HotBarElement:MonoBehaviour {
 
-	[SerializeField] GameObject targetPrefab;
+	public GameObject targetPrefab;
 	Vector3 initScale;
 	public void OnClick() {
 		GroundUpdate.instance.prefab=targetPrefab;
