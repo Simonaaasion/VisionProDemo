@@ -7,12 +7,15 @@ using Unity.PolySpatial.InputDevices;
 using TMPro;
 using System.Runtime.CompilerServices;
 using Unity.XR.CoreUtils;
+using System.Diagnostics;
 public class GroundUpdate:MonoBehaviour {
 	public GameObject[] flowers; // 通过Inspector面板关联三个物体
 	public AudioSource audioSource;
 	public GameObject Scoreboard;
 	public TMP_Text textMeshPro;
 	public GameObject nextBtn;
+
+	[SerializeField] float lowestLevel = -0.06173228f;
 
 	public GameObject prefab;
 	GameObject hotBar;
@@ -36,7 +39,7 @@ public class GroundUpdate:MonoBehaviour {
 		this.hotBar=hotBar;
 		hotBar.SetActive(true);
 		this.nextBtn=nextBtn;
-		HotBarElement target= hotBar.GetComponentInChildren<HotBarElement>();
+		HotBarElement target = hotBar.GetComponentInChildren<HotBarElement>();
 		prefab=target.targetPrefab;
 	}
 
@@ -49,11 +52,17 @@ public class GroundUpdate:MonoBehaviour {
 		if(activeTouches.Count>0) {
 			var primaryTouchPhase = activeTouches[0].phase;
 			var primaryTouchData = EnhancedSpatialPointerSupport.GetPointerState(activeTouches[0]);
+			
 			if(primaryTouchPhase==TouchPhase.Began) {
 				var buttonObject = primaryTouchData.targetObject;
-				if(buttonObject!=null) {
+
+				for(;buttonObject!=null&&buttonObject!=gameObject;buttonObject=buttonObject.transform.parent?.gameObject) ;
+
+				Vector3 sourcePosition = primaryTouchData.interactionPosition; // 起始位置
+				if(buttonObject!=null&&sourcePosition.y>=lowestLevel) {
 					if(buttonObject==gameObject) {
-						Vector3 sourcePosition = primaryTouchData.interactionPosition; // 起始位置
+
+
 						int randomIndex = Random.Range(0,flowers.Length); // 生成一个范围在0到objects.Length之间的随机整数
 						GameObject copiedObject = Instantiate(prefab);
 						// 将复制的对象放置在目标位置
@@ -70,11 +79,11 @@ public class GroundUpdate:MonoBehaviour {
 						if(currentObjects>=maxObjects) {
 							// 关闭种植模式 关闭地面碰撞器 关闭计分板 显示house按钮
 							isWorking=false;
+							Scoreboard.SetActive(false);
+							hotBar.SetActive(false);
+							nextBtn.SetActive(true);
 							if(gameObject.TryGetComponent(out MeshCollider meshCollider)) {
-								Scoreboard.SetActive(false);
 								meshCollider.enabled=false;
-								hotBar.SetActive(false);
-								nextBtn.SetActive(true);
 							}
 						}
 						if(currentObjects<=maxObjects) {
