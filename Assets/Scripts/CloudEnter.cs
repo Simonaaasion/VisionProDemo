@@ -16,18 +16,18 @@ public class CloudEnter:MonoBehaviour {
 	private void Update() {
 
 		if(!inited&&transform.parent.lossyScale!=Vector3.zero) {
-			transform.position-=Vector3.right*20;
+			transform.position-=Vector3.left*20;
 			transform.localScale=originalScale;
 			inited=true;
 		}
 
 		if(!targetObject.activeInHierarchy) return;
 		if(timeMoved>=1f) return;
-		transform.position+=Vector3.right*20*Time.deltaTime;
+		transform.position+=Vector3.left*20*Time.deltaTime;
 		timeMoved+=Time.deltaTime;
 		if(timeMoved>1){
 			float overMoved = timeMoved-1;
-			transform.position-=Vector3.right*overMoved;
+			transform.position-=Vector3.left*overMoved;
 		}
 	}
 
