@@ -747,7 +747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8534e17a0f90604c9afd4f5c73d829f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Id: 602e1b4c-fd0e-4a15-9149-fa7df6e17995
+  m_Id: e1528724-8c74-419a-af50-7450c4347722
 --- !u!1 &2145449026194601543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1240,7 +1240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8534e17a0f90604c9afd4f5c73d829f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Id: 5ee283b3-48e3-4a82-9918-69c4ab5c8923
+  m_Id: b79805b3-0a37-4d0a-a873-0c493700c653
 --- !u!1 &2715212786620330942
 GameObject:
   m_ObjectHideFlags: 0
@@ -3464,16 +3464,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5840101470619118887}
-  m_LocalRotation: {x: -0, y: 0.37488326, z: -0, w: 0.9270721}
-  m_LocalPosition: {x: 0, y: 0, z: 1.3012632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.249}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5530254201078466498}
-  m_LocalEulerAnglesHint: {x: 0, y: 44.034, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.3853676, y: 0.021345906}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4398229928699277378
@@ -11617,7 +11617,7 @@ MonoBehaviour:
   Soli: {fileID: 851908622094647220}
   Hotbar: {fileID: 5945131908443594463}
   nextBtn: {fileID: 1055316831940751319}
-  maxObjects: 20
+  maxObjects: 15
 --- !u!4 &5327227225956224310 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a3bc051f024f740e187c31629ddefa40, type: 3}
@@ -15059,7 +15059,7 @@ MonoBehaviour:
   Soli: {fileID: 851908622094647220}
   Hotbar: {fileID: 1619528834897925708}
   nextBtn: {fileID: 6114831290063568528}
-  maxObjects: 6
+  maxObjects: 4
 --- !u!4 &9044357150245036230 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a3bc051f024f740e187c31629ddefa40, type: 3}
