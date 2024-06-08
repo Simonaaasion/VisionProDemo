@@ -10,8 +10,9 @@ public class WindmillRotation:MonoBehaviour {
 	[SerializeField] bool startInvisible;
 	[SerializeField] Vector3 scale;
 	void Update() {
+		if(!restartButton) restartButton=RestartGame.instance;
+		if(!restartButton||!restartButton.activeInHierarchy) return;
 		if(startInvisible) transform.localScale=scale;
-		if(!restartButton.activeInHierarchy) return;
 		transform.Rotate(0,Time.deltaTime*rotation,Time.deltaTime*rotationZ);
 		transform.position+=Vector3.right*translation;
 	}

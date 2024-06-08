@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class RestartGame:MonoBehaviour {
 
+	public static GameObject instance;
+
+	private void Start() {
+		instance=gameObject;
+	}
+
 	[ContextMenuItem("÷ÿ∆Ù","restartGame")]
 	[SerializeField] GameObject rootPrefab;
 	public void restartGame() {
